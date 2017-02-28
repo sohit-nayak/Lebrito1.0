@@ -15,25 +15,28 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/etName"
-        android:hint="Name"
+        android:inputType="textPersonName"
+        android:hint="@string/Name"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/etEmail"
-        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:hint="@string/EmailId"
          />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/etpassword"
-        android:hint="Password"/>
+        android:inputType="textPassword"
+        android:hint="@string/Password"/>
 
     <Button
         android:layout_width="155dp"
         android:layout_height="50dp"
-        android:text="REGISTER"
+        android:text="@string/REGISTER"
         android:id="@+id/bregister"
         android:layout_gravity="center_horizontal" />
 
